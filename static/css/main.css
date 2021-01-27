@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+}
+body {
+  background-color: #34568b;
+}
+form {
+    margin-top: 40px;
+  text-align: center;
+}
+input[type=submit] {
+  background-color: #00cc44;
+  color: #000000;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input{
+  background-color: #7F8C8D;
+  color: #000000;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+h2 {
+  font-size: 2em;
+  margin-top: 40px;
+  text-align: center;
+  letter-spacing: -2px;
+}
+
+h4 {
+  margin-top: 40px;
+  text-align: center;
+}
