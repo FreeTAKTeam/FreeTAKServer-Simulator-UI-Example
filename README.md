@@ -2,7 +2,7 @@
 
 This is a simple Flask based web app that uses 
 [FreeTAKServer-Simulator](https://github.com/lennisthemenace/FreeTAKServer-Simulator)
-to play a gpx file to TAK
+to play a gpx file to TAK or to make a moving wandering object
 
 In order to run this you will need to copy in the 
 [FreeTAKServer-Simulator](https://github.com/lennisthemenace/FreeTAKServer-Simulator) 
