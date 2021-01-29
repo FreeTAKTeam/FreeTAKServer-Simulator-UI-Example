@@ -2,12 +2,12 @@
     <html>
   <head>
        <body>
-<title>FTS GPX Player</title>
+<title>FTS Wanderer</title>
      <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
   </head>
-<h2>FreeTAKServer GPX File Player</h2>
-<h4>Upload a GPX File</h4>
-<form method="post" action="/" enctype="multipart/form-data">
+<h2>FreeTAKServer Wanderer</h2>
+<h4>Begin to Wander</h4>
+<form method="post" action="/wander" enctype="multipart/form-data">
     <dl>
 		<p>
             <label for="callsign">Callsign:</label><br>
@@ -16,13 +16,18 @@
             <input type="text" id="cot_type" name="callsign" value="a-f-G-U-C" required><br>
             <label for="kph">Speed (Km/h):</label><br>
             <input type="number" id="kph" name="kph" required><br>
+            <label for="total_distance">Total Distance(km):</label><br>
+            <input type="number" id="total_distance" name="total_distance" required><br>
+            <label for="distance_between_change">Distance between direction change(km):</label><br>
+            <input type="number" id="distance_between_change" name="distance_between_change" required><br>
+            <label for="start_lat">Starting Lat:</label><br>
+            <input type="number" step="any" id="start_lat" name="start_lat" required><br>
+            <label for="start_lon">Starting Lon:</label><br>
+            <input type="number" step="any" id="start_lon" name="start_lon" required><br>
             <label for="gap">Max plot gap (Secs):</label><br>
             <input type="number" id="gap" name="gap" required><br>
             <label for="server">TAK Server Address:</label><br>
             <input type="text" id="server" name="server" required><br>
-            <label for="gpx">Gpx File:</label><br>
-            <input type="file" accept=".gpx" name="file" id="gpx" autocomplete="off" required></br>
-
 		</p>
     </dl>
     <p>
